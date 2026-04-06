@@ -61,7 +61,7 @@ function Navbar() {
 
           <div className="hidden items-center gap-5 lg:flex">
             <div className="relative cursor-pointer">
-              <img src="/images/cart icon.PNG" alt="cart" className="h-7 w-7 object-contain" />
+              <img src="/navbar-cart.png" alt="cart" className="h-7 w-7 object-contain" />
               <span className="absolute -right-2 -top-2 rounded-full bg-red-500 px-1 text-xs text-white">
                 3
               </span>
@@ -156,7 +156,7 @@ function Navbar() {
 
         <div className="mt-8 border-t border-gray-200 pt-6">
           <div className="mb-5 flex items-center gap-2 text-[#034932]">
-            <img src="/images/cart icon.PNG" alt="cart" className="h-6 w-6 object-contain" />
+            <img src="/navbar-cart.png" alt="cart" className="h-6 w-6 object-contain" />
             <span>Cart (3)</span>
           </div>
           <div className="flex flex-col gap-3">

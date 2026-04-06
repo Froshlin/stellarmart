@@ -30,7 +30,7 @@ function Pricing() {
         <div className="text-center">
           <div className="my-8 flex justify-center sm:my-10 md:my-12">
             <img
-              src="dashboard.png"
+              src="/dashboard.png"
               alt="dashboard"
             />
           </div>

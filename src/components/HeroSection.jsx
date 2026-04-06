@@ -3,7 +3,7 @@ function HeroSection() {
     <section className="px-4 pt-8 sm:px-6 md:px-8 md:pt-12">
       <div className="mx-auto flex w-full max-w-360 flex-col">
         <div className="inline-flex w-fit items-center justify-center gap-2 rounded-full bg-[#DBEAFE] px-4 py-2 sm:px-5 sm:py-3">
-          <img src="lightning.png" alt="lightning" className="h-5 w-5 object-contain" />
+          <img src="/lightning.png" alt="lightning" className="h-5 w-5 object-contain" />
           <h3 className="text-sm font-bold text-[#034932] sm:text-base md:text-[20px]">
             Launch Your Store in 5 Minutes
           </h3>
@@ -25,7 +25,7 @@ function HeroSection() {
                 START FREE TRIAL
               </button>
               <button className="flex h-14 w-full items-center justify-center gap-2 rounded-[14px] border border-[#034932] bg-transparent px-6 text-base font-semibold text-[#034932] sm:h-16.5 sm:w-47.5 sm:rounded-[18px] sm:text-lg">
-                <img src="play.png" alt="play" className="h-5 w-5 object-contain" />
+                <img src="/play.png" alt="play" className="h-5 w-5 object-contain" />
                 Watch Demo
               </button>
             </div>
@@ -45,7 +45,7 @@ function HeroSection() {
 
           <div className="flex flex-1 justify-center lg:justify-end">
             <img
-              src="hero-img.PNG"
+              src="/hero-img.PNG"
               alt="hero"
               className="h-auto w-full max-w-130 sm:max-w-155 lg:max-w-185"
             />
