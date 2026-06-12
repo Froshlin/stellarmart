@@ -9,7 +9,7 @@ import {
   FaUsers,
   FaStar,
   FaCog,
-  FaMegaphone,
+  FaBullhorn,
   FaSignOutAlt,
 } from "react-icons/fa";
 import { TbLayoutDashboard } from "react-icons/tb";
@@ -72,7 +72,7 @@ export const VENDOR_MENU_ITEMS = [
   },
   {
     name: "Marketing",
-    icon: FaMegaphone,
+    icon: FaBullhorn,
     link: "/vendor/marketing",
   },
   {
