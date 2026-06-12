@@ -1,0 +1,12 @@
+export { default as Dashboard } from "./Dashboard";
+export { default as MyOrders } from "./MyOrders";
+export { default as MyRewards } from "./MyRewards";
+export { default as Product } from "./Product";
+export { default as AddProduct } from "./AddProduct";
+export { default as Inventory } from "./Inventory";
+export { default as Payouts } from "./Payouts";
+export { default as Earnings } from "./Earnings";
+export { default as Customers } from "./Customers";
+export { default as Reviews } from "./Reviews";
+export { default as ProfileSettings } from "./ProfileSettings";
+export { default as Marketing } from "./Marketing";

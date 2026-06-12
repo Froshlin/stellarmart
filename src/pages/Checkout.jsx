@@ -26,7 +26,6 @@ const checkoutData = {
 };
 
 function Checkout() {
-  // TODO: Replace with verification and cart data from backend checkout endpoint.
   const [code, setCode] = useState(["", "", "", ""]);
 
   function handleCodeChange(index, value) {
