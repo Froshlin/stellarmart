@@ -1,14 +1,12 @@
 import { Outlet } from "react-router-dom";
-import VendorHeaderCard from "../components/VendorHeaderCard";
 import VendorSidebar from "../components/VendorSidebar";
 
 function VendorLayout() {
   return (
     <main className="w-full bg-white">
-      <VendorHeaderCard />
-      <div className="flex w-full gap-6 pl-14 pr-2 py-6">
+      <div className="flex w-full gap-6 pl-6 pr-6 py-6">
         <VendorSidebar />
-        <section className="w-full min-h-80 p-4">
+        <section className="w-full min-h-screen">
           <Outlet />
         </section>
       </div>
